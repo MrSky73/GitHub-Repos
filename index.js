@@ -1,4 +1,4 @@
-import {startLoader, stopLoader} from "./helpers.js";
+import {startLoader, stopLoader} from "./helper.js";
 import FetchWrapper from "./fetch-wrapper.js";
 
 const GithubAPI  = new FetchWrapper("https://api.github.com/");
